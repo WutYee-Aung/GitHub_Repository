@@ -1,0 +1,99 @@
+2023-08-27 03:03:10.150 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-27 03:03:10.151 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-27 03:03:10.152 [info] Test server listening.
+2023-08-27 03:03:10.153 [info] Python interpreter path: /usr/local/bin/python
+2023-08-27 03:03:16.769 [info] > conda info --json
+2023-08-27 03:03:29.623 [info] Starting Pylance language server.
+2023-08-27 03:11:41.503 [info] Found: /bin/python3 --> /bin/python3.11
+2023-08-27 03:11:41.575 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-08-27 03:11:42.668 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-08-27 03:11:42.675 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-08-27 03:11:42.812 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.11
+2023-08-27 03:11:42.820 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.11
+2023-08-27 03:11:42.826 [info] Found: /usr/local/bin/python3.11 --> /usr/local/bin/python3.11
+2023-08-27 03:11:43.064 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-27 03:11:43.244 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-27 03:11:43.917 [info] > /usr/local/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.14.0/pythonFiles/interpreterInfo.py
+2023-08-27 03:23:35.602 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:23:44.940 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:25:11.369 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:25:47.617 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:47:10.928 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:47:28.371 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:49:03.646 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:49:09.798 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:49:22.512 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:49:36.289 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:49:40.599 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:50:03.414 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:51:21.741 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:51:27.452 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:51:41.933 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 03:56:32.761 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:56:47.896 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 03:56:49.551 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:00:07.433 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:00:12.084 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:00:26.583 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:01:01.325 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:01:03.765 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:01:20.479 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:02:31.304 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:02:46.532 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:03:03.383 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:03:06.625 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:03:06.903 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:03:59.401 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:07:28.305 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:13:48.576 [info] Discover tests for workspace name: root - uri: /root/source_code/predict.py
+2023-08-27 04:14:46.972 [info] Discover tests for workspace name: root - uri: /root/source_code/predict.py
+2023-08-27 04:14:59.849 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:16:03.551 [info] Discover tests for workspace name: root - uri: /root/source_code/predict.py
+2023-08-27 04:16:51.098 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:17:26.649 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:17:41.277 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 04:17:55.781 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:18:06.789 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:20:05.008 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:20:16.051 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:21:20.952 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:21:34.106 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:21:52.314 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:22:42.465 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:22:58.321 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:23:16.765 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:23:20.756 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:24:06.661 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:24:18.477 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:26:21.041 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:26:30.651 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:28:24.202 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:29:26.295 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:31:46.350 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 04:31:52.601 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 04:32:03.611 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:33:16.044 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 04:33:25.798 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:34:23.087 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:34:46.165 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:35:38.181 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:41:54.155 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:42:33.500 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 04:42:45.268 [info] Send text to terminal: /usr/local/bin/python /root/source_code/predict_car_price.py
+2023-08-27 04:42:57.479 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:43:38.507 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:55:32.093 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 04:55:33.792 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:56:13.675 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 04:59:04.533 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 05:02:25.539 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 11:30:59.886 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 11:31:59.451 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 11:33:07.748 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 11:33:38.183 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 11:33:50.486 [info] Discover tests for workspace name: root - uri: /root/source_code/app.py
+2023-08-27 11:34:02.166 [info] Discover tests for workspace name: root - uri: /root/source_code/predict_car_price.py
+2023-08-27 11:34:17.466 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 11:44:01.375 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 11:44:19.196 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py
+2023-08-27 11:47:00.237 [info] Send text to terminal: /usr/local/bin/python /root/source_code/app.py

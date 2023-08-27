@@ -1,0 +1,128 @@
+2023-08-26 20:20:57.922 [info] Extension host with pid 381 started
+2023-08-26 20:21:01.503 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-08-26 20:21:06.316 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-26 20:21:20.369 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 20:21:20.377 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-26 20:21:23.097 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e3f3d8c076f1c9b644976edbf4144c46/vscode.lock': Lock acquired.
+2023-08-26 20:21:23.387 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-26 20:21:23.388 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-26 20:21:30.248 [info] Eager extensions activated
+2023-08-26 20:21:30.349 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-08-26 20:21:30.368 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-08-26 20:21:30.375 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-08-26 20:21:30.382 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+2023-08-26 20:21:33.821 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-08-26 20:21:33.822 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-26 20:22:37.042 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-08-26 20:22:46.714 [error] Error: Module 'pip' not installed.
+	at Jd.execModule (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:7:40513)
+	at async Ed.getPackageInformation (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:7:31745)
+2023-08-26 20:32:00.384 [error] [ms-python.python] provider FAILED
+2023-08-26 20:32:00.385 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-26 21:12:23.255 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-08-26 21:12:23.273 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-08-26 21:12:26.083 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-08-26 22:30:07.074 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-26 23:24:11.638 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-08-26 23:24:56.647 [error] [ms-python.python] provider FAILED
+2023-08-26 23:24:56.648 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:50.536 [info] Extension host terminating: received terminate message from renderer
+2023-08-27 00:08:50.576 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/e3f3d8c076f1c9b644976edbf4144c46/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-08-27 00:08:51.121 [error] Error: The kernel died. Error: ... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+	at ChildProcess.emit (node:events:525:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2023-08-27 00:08:51.137 [error] Canceled: Canceled
+	at new h (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:56634)
+	at t.O (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:8020)
+	at Proxy.N.<computed>.T.charCodeAt.N.<computed> (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:115:5459)
+	at a.g (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:77241)
+	at a.executeCommand (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:76679)
+	at w.registerCommand.description (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:76000)
+	at a.h (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:77777)
+	at a.g (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:76772)
+	at a.executeCommand (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:103:76679)
+	at Object.executeCommand (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:20977)
+	at wu.executeCommand (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:17:7443)
+	at Bw.set (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:303284)
+	at pk.updateContextOfActiveNotebookKernel (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:500453)
+	at pk.onDidKernelStatusChange (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:502069)
+	at f.w (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at f.x (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at fire (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at Gg.<anonymous> (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:39661)
+	at f.w (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at f.x (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1972)
+	at fire (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2188)
+	at /root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:17:242737
+	at Ag.dispose (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:17:242839)
+	at /root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:2:1772256
+	at Array.map (<anonymous>)
+	at tc.dispose (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:2:1772246)
+	at Module.dx (/root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:645613)
+	at r.Z (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:9494)
+	at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7582
+	at Array.map (<anonymous>)
+	at r.S (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7570)
+	at r.terminate (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:117:7842)
+	at s.terminate (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:121:1506)
+	at C (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:32254)
+	at r.value (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:30301)
+	at f.w (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at y.fire (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:13931)
+	at n.z (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16996)
+	at r.value (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:16401)
+	at f.w (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at r.acceptChunk (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:11705)
+	at r.value (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:79:10992)
+	at f.w (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at fire (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at f.u (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:19097)
+	at f.acceptFrame (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:18903)
+	at c.l (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:17536)
+	at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:14883
+	at Socket.v (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:131:12797)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-08-27 00:08:53.610 [error] [ms-python.python] provider FAILED
+2023-08-27 00:08:53.611 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:53.611 [error] [ms-python.python] provider FAILED
+2023-08-27 00:08:53.612 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:53.613 [error] [ms-python.python] provider FAILED
+2023-08-27 00:08:53.613 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:53.614 [error] [ms-python.python] provider FAILED
+2023-08-27 00:08:53.614 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:53.615 [error] [ms-python.python] provider FAILED
+2023-08-27 00:08:53.615 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:53.620 [error] [ms-python.python] provider FAILED
+2023-08-27 00:08:53.621 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:71018
+	at _0x43fdbb (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/extension.bundle.js:1:82653)
+	at async ce.provideCompletionItems (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/api/node/extensionHostProcess.js:105:50188)
+2023-08-27 00:08:53.929 [info] Extension host with pid 381 exiting with code 0

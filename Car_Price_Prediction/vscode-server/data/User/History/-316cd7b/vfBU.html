@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Car Price</title>
+</head>
+<body>
+    <h1>Predict Car Price</h1>
+    <form method="post" action="/predict">
+        <label for="Max Power">Max Power:   </label>
+        <input type="text" id="max_power" name="max_power">
+        <br>
+        <label for="Car Age">Year:   </label>
+        <input type="text" id="car_age" name="car_age">
+        <br>
+        <label for="Mileage">Mileage:   </label>
+        <input type="text" id="mileage" name="mileage">
+        <br>
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction %}
+    <p>Prediction: {{ prediction }}</p>
+    {% endif %}
+</body>
+</html>

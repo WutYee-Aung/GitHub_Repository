@@ -1,0 +1,212 @@
+2023-08-26 06:20:39.631 [info] 
+
+
+
+
+2023-08-26 06:20:39.632 [info] Extension host agent started.
+2023-08-26 06:20:39.714 [debug] No uninstalled extensions found.
+2023-08-26 06:20:39.728 [info] [127.0.0.1][6b483c0a][ManagementConnection] New connection established.
+2023-08-26 06:20:39.754 [info] Log level changed to info
+2023-08-26 06:20:40.146 [info] [127.0.0.1][0b173aa2][ExtensionHostConnection] New connection established.
+2023-08-26 06:20:40.432 [info] [127.0.0.1][0b173aa2][ExtensionHostConnection] <329> Launched Extension Host Process.
+2023-08-26 06:24:22.404 [info] Getting Manifest... ms-python.python
+2023-08-26 06:24:22.854 [info] Installing extension: ms-python.python
+2023-08-26 06:24:25.122 [info] Getting Manifest... ms-toolsai.jupyter
+2023-08-26 06:24:25.254 [info] Extension installed successfully: ms-python.python
+2023-08-26 06:24:25.363 [info] Installing extension: ms-toolsai.jupyter
+2023-08-26 06:24:26.400 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-08-26 06:24:26.583 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-08-26 06:24:26.759 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-08-26 06:24:26.935 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-08-26 06:24:28.128 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-08-26 06:24:28.130 [info] Installing extension: ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-08-26 06:24:28.140 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-08-26 06:24:28.139 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-08-26 06:24:33.805 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.vscode-jupyter-slideshow
+2023-08-26 06:24:34.286 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter-keymap
+2023-08-26 06:24:34.397 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.vscode-jupyter-cell-tags
+2023-08-26 06:24:35.091 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter-renderers
+2023-08-26 06:24:35.381 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2023-08-26 06:24:35.593 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2023-08-26 06:24:35.798 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-08-26 06:24:36.420 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5: ms-toolsai.vscode-jupyter-slideshow
+2023-08-26 06:24:36.579 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-08-26 06:24:36.669 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-08-26 06:24:37.195 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8: ms-toolsai.vscode-jupyter-cell-tags
+2023-08-26 06:24:37.611 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-08-26 06:24:37.678 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-08-26 06:24:43.571 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17: ms-toolsai.jupyter-renderers
+2023-08-26 06:24:43.698 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17
+2023-08-26 06:24:43.807 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-08-26 06:24:47.931 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter
+2023-08-26 06:24:59.402 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64: ms-toolsai.jupyter
+2023-08-26 06:24:59.591 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64
+2023-08-26 06:24:59.664 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-08-26 06:24:59.765 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-08-26 06:24:59.767 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-08-26 06:24:59.769 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-08-26 06:24:59.770 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-08-26 06:24:59.772 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-08-26 06:26:30.098 [info] [127.0.0.1][6b483c0a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-26 06:26:30.143 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.174 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.205 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.223 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.229 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.235 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.257 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.276 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.396 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 06:26:30.856 [info] [127.0.0.1][0b173aa2][ExtensionHostConnection] <329> Extension Host Process exited with code: 0, signal: null.
+2023-08-26 06:26:43.712 [info] [127.0.0.1][7637df79][ManagementConnection] New connection established.
+2023-08-26 06:26:44.545 [info] [127.0.0.1][41e50175][ExtensionHostConnection] New connection established.
+2023-08-26 06:26:44.767 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Launched Extension Host Process.
+2023-08-26 06:28:50.017 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/7229701b-dad2-4470-96ae-37b49432023f
+
+2023-08-26 06:29:29.978 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/4ea5f331-4420-427e-874b-fc3581e9721d
+
+2023-08-26 08:50:29.964 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/7403e916-1165-49e0-9e6b-47066a5e258c
+
+2023-08-26 08:52:40.750 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/024f8c6f-31f5-49f2-9cf2-36fd6562dc18
+
+2023-08-26 10:28:11.434 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 10:43:12.640 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:00:00.463 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:06:25.603 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/d12075b9-9652-4000-b928-1ae81c008ca3
+
+2023-08-26 11:07:10.330 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/a1881eac-b8ee-409f-986d-003a530f053e
+
+2023-08-26 11:14:02.687 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:14:35.912 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:15:38.211 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:15:48.079 [error] No ptyHost heartbeat after 12 seconds
+2023-08-26 11:18:17.664 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:42:08.288 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 11:44:52.680 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/af5a4491-a155-452f-8226-cafc0e95a8d2
+
+2023-08-26 11:44:52.824 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Kernel: starting (af5a4491-a155-452f-8226-cafc0e95a8d2)
+
+2023-08-26 12:06:22.381 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/df988ed7-b1ba-48f5-b65e-695f1ec53626
+
+2023-08-26 12:17:29.595 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Starting WebSocket: RAW/api/kernels/a9252adc-114a-4aab-a641-3c2a2640d65b
+
+2023-08-26 12:17:41.050 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-26 12:35:26.202 [info] [127.0.0.1][7637df79][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-26 12:35:26.287 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.330 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.331 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.332 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.333 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.334 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.335 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.374 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:26.375 [error] Error: Throttler is disposed
+    at r.queue (/root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-26 12:35:33.641 [info] [127.0.0.1][41e50175][ExtensionHostConnection] <4224> Extension Host Process exited with code: 0, signal: null.

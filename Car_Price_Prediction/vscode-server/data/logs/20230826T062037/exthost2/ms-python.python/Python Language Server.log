@@ -1,0 +1,103 @@
+2023-08-26 06:27:14.255 [info] [Info  - 6:27:14 AM] (4603) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-26 06:27:14.256 [info] [Info  - 6:27:14 AM] (4603) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-26 06:27:14.257 [info] [Info  - 6:27:14 AM] (4603) Starting service instance "root"
+2023-08-26 06:27:14.525 [info] [Info  - 6:27:14 AM] (4603) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-08-26 06:27:14.584 [info] [Warn  - 6:27:14 AM] (4603) stubPath /root/typings is not a valid directory.
+2023-08-26 06:27:14.637 [info] [Info  - 6:27:14 AM] (4603) Assuming Python version 3.11
+2023-08-26 06:27:19.285 [info] [Info  - 6:27:19 AM] (4603) No source files found.
+2023-08-26 06:27:21.971 [info] [Info  - 6:27:21 AM] (4603) Starting service instance "root"
+2023-08-26 06:27:22.028 [info] [Info  - 6:27:22 AM] (4603) Setting pythonPath for service "root": "/bin/python3"
+2023-08-26 06:27:22.031 [info] [Warn  - 6:27:22 AM] (4603) stubPath /root/typings is not a valid directory.
+2023-08-26 06:27:22.129 [info] [Info  - 6:27:22 AM] (4603) Assuming Python version 3.11
+2023-08-26 06:27:25.053 [info] [Info  - 6:27:25 AM] (4603) No source files found.
+2023-08-26 06:27:32.835 [info] [Info  - 6:27:32 AM] (4603) [BG(2)] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W1sdnNjb2RlLXJlbW90ZQ==.py (5497ms)
+2023-08-26 06:27:36.372 [info] [Info  - 6:27:36 AM] (4603) [BG(2)] Long operation: getSemanticTokens full at /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W1sdnNjb2RlLXJlbW90ZQ==.py (9044ms)
+2023-08-26 06:27:43.746 [info] [Info  - 6:27:43 AM] (4603) [BG(2)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/sklearn/utils/__init__.pyi (2771ms)
+2023-08-26 06:27:43.844 [info] [Info  - 6:27:43 AM] (4603) [BG(2)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y205sdnNjb2RlLXJlbW90ZQ==.py (5604ms)
+2023-08-26 06:27:43.849 [info] [Info  - 6:27:43 AM] (4603) [BG(2)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y205sdnNjb2RlLXJlbW90ZQ==.py (6213ms)
+2023-08-26 06:27:47.229 [info] [Info  - 6:27:47 AM] (4603) [BG(2)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y202sdnNjb2RlLXJlbW90ZQ==.py (3370ms)
+2023-08-26 06:27:47.230 [info] [Info  - 6:27:47 AM] (4603) [BG(2)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y202sdnNjb2RlLXJlbW90ZQ==.py (3370ms)
+2023-08-26 06:27:50.677 [info] [Info  - 6:27:50 AM] (4603) [BG(2)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (13044ms)
+2023-08-26 06:27:53.991 [info] [Info  - 6:27:53 AM] (4603) [IDX(3)] Long operation: scan packages /root (24717ms)
+2023-08-26 06:34:05.986 [info] [Info  - 6:34:05 AM] (4603) [FG] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W5sdnNjb2RlLXJlbW90ZQ==.py (2162ms)
+2023-08-26 08:50:14.441 [info] [Info  - 8:50:14 AM] (4603) Starting service instance "root"
+2023-08-26 08:50:15.476 [info] [Info  - 8:50:15 AM] (4603) Setting pythonPath for service "root": "/bin/python3"
+2023-08-26 08:50:15.507 [info] [Warn  - 8:50:15 AM] (4603) stubPath /root/typings is not a valid directory.
+2023-08-26 08:50:16.296 [info] [Info  - 8:50:16 AM] (4603) Assuming Python version 3.11
+2023-08-26 08:50:29.027 [info] [Info  - 8:50:29 AM] (4603) No source files found.
+2023-08-26 08:50:36.321 [info] [Info  - 8:50:36 AM] (4603) [BG(4)] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W5sdnNjb2RlLXJlbW90ZQ==.py (5035ms)
+2023-08-26 08:50:47.338 [info] [Info  - 8:50:47 AM] (4603) [BG(4)] Long operation: getSemanticTokens full at /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W5sdnNjb2RlLXJlbW90ZQ==.py (16056ms)
+2023-08-26 08:50:47.831 [info] [Info  - 8:50:47 AM] (4603) [IDX(5)] Long operation: scan packages /root (12973ms)
+2023-08-26 08:50:49.536 [info] [Info  - 8:50:49 AM] (4603) [BG(4)] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y166sdnNjb2RlLXJlbW90ZQ==.py (2038ms)
+2023-08-26 08:50:52.950 [info] [Info  - 8:50:52 AM] (4603) [BG(4)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/sklearn/model_selection/_search.pyi (2007ms)
+2023-08-26 08:51:04.873 [info] [Info  - 8:51:04 AM] (4603) [BG(4)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/sklearn/utils/__init__.pyi (7870ms)
+2023-08-26 08:51:05.006 [info] [Info  - 8:51:05 AM] (4603) [BG(4)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y205sdnNjb2RlLXJlbW90ZQ==.py (15005ms)
+2023-08-26 08:51:05.006 [info] [Info  - 8:51:05 AM] (4603) [BG(4)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y205sdnNjb2RlLXJlbW90ZQ==.py (17598ms)
+2023-08-26 08:51:14.385 [info] [Info  - 8:51:14 AM] (4603) [BG(4)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (26977ms)
+2023-08-26 08:52:32.625 [info] [Info  - 8:52:32 AM] (4603) Starting service instance "root"
+2023-08-26 08:52:32.673 [info] [Info  - 8:52:32 AM] (4603) Setting pythonPath for service "root": "/bin/python3"
+2023-08-26 08:52:32.773 [info] [Warn  - 8:52:32 AM] (4603) stubPath /root/typings is not a valid directory.
+2023-08-26 08:52:35.236 [info] [Info  - 8:52:35 AM] (4603) Assuming Python version 3.11
+2023-08-26 08:52:43.599 [info] [Info  - 8:52:43 AM] (4603) No source files found.
+2023-08-26 08:52:51.821 [info] [Info  - 8:52:51 AM] (4603) [BG(6)] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y234sdnNjb2RlLXJlbW90ZQ==.py (5113ms)
+2023-08-26 08:52:58.913 [info] [Info  - 8:52:58 AM] (4603) [BG(6)] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W1sdnNjb2RlLXJlbW90ZQ==.py (4720ms)
+2023-08-26 08:53:01.602 [info] [Info  - 8:53:01 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y234sdnNjb2RlLXJlbW90ZQ==.py (14942ms)
+2023-08-26 08:53:01.604 [info] [Info  - 8:53:01 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (14955ms)
+2023-08-26 08:53:04.223 [info] [Info  - 8:53:04 AM] (4603) [IDX(7)] Long operation: scan packages /root (14798ms)
+2023-08-26 08:53:08.257 [info] [Info  - 8:53:08 AM] (4603) [BG(6)] Long operation: getSemanticTokens full at /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:X10sdnNjb2RlLXJlbW90ZQ==.py (6605ms)
+2023-08-26 08:53:11.780 [info] [Info  - 8:53:11 AM] (4603) [BG(6)] Long operation: getSemanticTokens full at /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:W1sdnNjb2RlLXJlbW90ZQ==.py (2279ms)
+2023-08-26 08:53:16.120 [info] [Info  - 8:53:16 AM] (4603) [BG(6)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/typeshed-fallback/stdlib/io.pyi (2613ms)
+2023-08-26 08:53:16.132 [info] [Info  - 8:53:16 AM] (4603) [BG(6)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y234sdnNjb2RlLXJlbW90ZQ==.py (3231ms)
+2023-08-26 08:53:16.146 [info] [Info  - 8:53:16 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y234sdnNjb2RlLXJlbW90ZQ==.py (3273ms)
+2023-08-26 08:53:22.376 [info] [Info  - 8:53:22 AM] (4603) [BG(6)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/sklearn/utils/__init__.pyi (2790ms)
+2023-08-26 08:53:22.653 [info] [Info  - 8:53:22 AM] (4603) [BG(6)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y230sdnNjb2RlLXJlbW90ZQ==.py (5577ms)
+2023-08-26 08:53:22.654 [info] [Info  - 8:53:22 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y230sdnNjb2RlLXJlbW90ZQ==.py (5577ms)
+2023-08-26 08:53:27.458 [info] [Info  - 8:53:27 AM] (4603) [BG(6)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y203sdnNjb2RlLXJlbW90ZQ==.py (2885ms)
+2023-08-26 08:53:27.458 [info] [Info  - 8:53:27 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y203sdnNjb2RlLXJlbW90ZQ==.py (2885ms)
+2023-08-26 08:53:30.131 [info] [Info  - 8:53:30 AM] (4603) [BG(6)] Long operation: binding: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/matplotlib/axes/__init__.pyi (2289ms)
+2023-08-26 08:53:30.320 [info] [Info  - 8:53:30 AM] (4603) [BG(6)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y156sdnNjb2RlLXJlbW90ZQ==.py (2543ms)
+2023-08-26 08:53:30.322 [info] [Info  - 8:53:30 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y156sdnNjb2RlLXJlbW90ZQ==.py (2544ms)
+2023-08-26 08:53:35.145 [info] [Info  - 8:53:35 AM] (4603) [BG(6)] Long operation: checking: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y111sdnNjb2RlLXJlbW90ZQ==.py (2915ms)
+2023-08-26 08:53:35.157 [info] [Info  - 8:53:35 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y111sdnNjb2RlLXJlbW90ZQ==.py (2915ms)
+2023-08-26 08:53:37.654 [info] [Info  - 8:53:37 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (25818ms)
+2023-08-26 08:53:45.299 [info] [Info  - 8:53:45 AM] (4603) [FG] Long operation: binding: /root/.local/lib/python3.11/site-packages/seaborn/__init__.py (2471ms)
+2023-08-26 08:57:10.476 [info] [Info  - 8:57:10 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (2187ms)
+2023-08-26 08:57:31.804 [info] [Info  - 8:57:31 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y234sdnNjb2RlLXJlbW90ZQ==.py (2050ms)
+2023-08-26 08:57:31.805 [info] [Info  - 8:57:31 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (3000ms)
+2023-08-26 08:57:36.845 [info] [Info  - 8:57:36 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y234sdnNjb2RlLXJlbW90ZQ==.py (4165ms)
+2023-08-26 08:57:37.872 [info] [Info  - 8:57:37 AM] (4603) [BG(6)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:pylancePrefixCell.py (5726ms)
+2023-08-26 09:02:34.259 [info] [Info  - 9:02:34 AM] (4603) Starting service instance "root"
+2023-08-26 09:02:34.332 [info] [Info  - 9:02:34 AM] (4603) Setting pythonPath for service "root": "/bin/python3"
+2023-08-26 09:02:34.343 [info] [Warn  - 9:02:34 AM] (4603) stubPath /root/typings is not a valid directory.
+2023-08-26 09:02:34.494 [info] [Info  - 9:02:34 AM] (4603) Assuming Python version 3.11
+2023-08-26 09:02:37.424 [info] [Info  - 9:02:37 AM] (4603) No source files found.
+2023-08-26 09:03:04.256 [info] [Info  - 9:03:04 AM] (4603) [FG] Long operation: parsing: /root/.local/lib/python3.11/site-packages/IPython/lib/display.py (11161ms)
+2023-08-26 09:03:04.270 [info] [Info  - 9:03:04 AM] (4603) [FG] Long operation: binding: /root/.local/lib/python3.11/site-packages/IPython/display.py (11723ms)
+2023-08-26 09:03:06.071 [info] [Info  - 9:03:06 AM] (4603) [BG(8)] Long operation: parsing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:X10sdnNjb2RlLXJlbW90ZQ==.py (17073ms)
+2023-08-26 09:03:07.393 [info] [Info  - 9:03:07 AM] (4603) [BG(8)] Long operation: analyzing: /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:X10sdnNjb2RlLXJlbW90ZQ==.py (18396ms)
+2023-08-26 09:03:08.820 [info] [Info  - 9:03:08 AM] (4603) [IDX(9)] Long operation: scan packages /root (16685ms)
+2023-08-26 09:08:22.595 [info] Error: Debug Failure. False expression: Chained file path undefined doesn't match cellFilePaths /root/source_code/Car_Price_Prediction.ipynb:pylance-notebook-cell:Y233sdnNjb2RlLXJlbW90ZQ==.py
+    at _0x4ba240 (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/server.bundle.js:1:900729)
+    at /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/server.bundle.js:1:907846
+    at _0x2599f4.<computed> (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/server.bundle.js:1:907878)
+    at _0x872478._onDidChangeNotebookDocumentAsync (/root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/server.bundle.js:1:886358)
+
+2023-08-26 12:09:09.897 [info] [Info  - 12:09:09 PM] (4603) Starting service instance "root"
+2023-08-26 12:09:10.004 [info] [Warn  - 12:09:10 PM] (4603) stubPath /root/typings is not a valid directory.
+2023-08-26 12:09:15.589 [info] [Info  - 12:09:15 PM] (4603) No source files found.
+2023-08-26 12:09:17.803 [info] [Info  - 12:09:17 PM] (4603) [FG] Long operation: parsing: /root/source_code/call_model.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (2179ms)
+2023-08-26 12:09:21.512 [info] [Info  - 12:09:21 PM] (4603) [BG(10)] Long operation: parsing: /root/source_code/call_model.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (3878ms)
+2023-08-26 12:09:23.344 [info] [Info  - 12:09:23 PM] (4603) [BG(10)] Long operation: getSemanticTokens full at /root/source_code/call_model.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (5717ms)
+2023-08-26 12:15:50.165 [info] [Info  - 12:15:50 PM] (4603) [BG(10)] Long operation: analyzing: /root/source_code/call_model.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (2178ms)
+2023-08-26 12:15:53.425 [info] [Info  - 12:15:53 PM] (4603) [BG(10)] Long operation: checking: /root/source_code/call_model.ipynb:pylance-notebook-cell:W2sdnNjb2RlLXJlbW90ZQ==.py (3253ms)
+2023-08-26 12:15:53.427 [info] [Info  - 12:15:53 PM] (4603) [BG(10)] Long operation: analyzing: /root/source_code/call_model.ipynb:pylance-notebook-cell:W2sdnNjb2RlLXJlbW90ZQ==.py (3253ms)
+2023-08-26 12:15:53.428 [info] [Info  - 12:15:53 PM] (4603) [BG(10)] Long operation: analyzing: /root/source_code/call_model.ipynb:pylance-notebook-cell:pylancePrefixCell.py (5447ms)
+2023-08-26 12:17:33.675 [info] [Info  - 12:17:33 PM] (4603) [FG] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/matplotlib/_typing.pyi (4970ms)
+2023-08-26 12:17:34.546 [info] [Info  - 12:17:34 PM] (4603) [FG] Long operation: binding: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/matplotlib/pyplot.pyi (4980ms)
+2023-08-26 12:17:41.212 [info] [Info  - 12:17:41 PM] (4603) [BG(8)] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/typeshed-fallback/stdlib/os/__init__.pyi (2072ms)
+2023-08-26 12:17:42.619 [info] [Info  - 12:17:42 PM] (4603) [FG] Long operation: parsing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist/bundled/stubs/matplotlib/__init__.pyi (10085ms)
+2023-08-26 12:17:43.203 [info] [Info  - 12:17:43 PM] (4603) [BG(8)] Long operation: checking: /root/source_code/call_model.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (17556ms)
+2023-08-26 12:17:43.204 [info] [Info  - 12:17:43 PM] (4603) [BG(8)] Long operation: analyzing: /root/source_code/call_model.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (19120ms)
+2023-08-26 12:17:47.808 [info] [Info  - 12:17:47 PM] (4603) [BG(8)] Long operation: checking: /root/source_code/call_model.ipynb:pylance-notebook-cell:W2sdnNjb2RlLXJlbW90ZQ==.py (5226ms)
+2023-08-26 12:17:47.809 [info] [Info  - 12:17:47 PM] (4603) [BG(8)] Long operation: analyzing: /root/source_code/call_model.ipynb:pylance-notebook-cell:W2sdnNjb2RlLXJlbW90ZQ==.py (5227ms)
+2023-08-26 12:17:47.810 [info] [Info  - 12:17:47 PM] (4603) [BG(8)] Long operation: analyzing: /root/source_code/call_model.ipynb:pylance-notebook-cell:pylancePrefixCell.py (25066ms)
