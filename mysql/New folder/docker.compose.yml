@@ -1,0 +1,10 @@
+version: '3'
+services:
+  dev:
+    image: car_price_prediction # image name
+    build: 
+      context: .
+      dockerfile: .DockerFile
+    volumes:
+      - ./source_code:/root/source_code
+      - ./vscode-server:/root/.vscode-server
