@@ -10,7 +10,7 @@ RUN pip3 install setuptools==68.1.2
 RUN pip3 install shap==0.42.1
 RUN pip3 install Flask
 
-COPY ./Source_Code/a2_app/ /root/source_code/a2_app/
+COPY ./Source_Code/a2_app /root/source_code/a2_app/
 
 CMD tail -f /dev/null
 

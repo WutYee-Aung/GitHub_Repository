@@ -34,4 +34,4 @@ def a2_predict():
     return render_template('a2_index.html',prediction=prediction)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=1986)
+    app.run(debug=True, host='0.0.0.0', port=80)
