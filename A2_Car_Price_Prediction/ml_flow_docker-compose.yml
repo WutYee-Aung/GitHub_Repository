@@ -1,0 +1,34 @@
+version: '3.9'
+
+services:
+  python:
+    image: akraradets/ait-ml-python:2023
+    platform: linux/x86_64
+    build: 
+      context: .
+      # dockerfile: a2_carprice.Dockerfile
+      dockerfile: python.Dockerfile
+    volumes:
+      - ./source_code:/root/source_code
+      # - ./:/root/code
+      - .vscode-server:/root/.vscode-server
+
+  dev:
+    image: a2_car_price_prediction # image name
+    build: 
+      context: .
+      dockerfile: a2_python.DockerFile
+    volumes:
+      - ./source_code:/root/source_code
+      - ./vscode-server:/root/.vscode-server
+
+  mlflow:
+    image: akraradets/ait-ml-mlflow:2023
+    platform: linux/x86_64
+    build: 
+      context: .
+      dockerfile: mlflow.Dockerfile
+    volumes:
+      - ./_mlflow:/mlflow
+    ports:
+      - 5000:5000

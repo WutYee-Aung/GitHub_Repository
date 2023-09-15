@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Price Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        input[type="checkbox"] {
+            margin-top: 5px;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #prediction {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Price Prediction</h1>
+    <form action="/a2_predict" method="POST">
+        <label for="max_power">Max Power (bhp):</label>
+        <input type="number" id="max_power" name="max_power" step="0.01" required>
+
+        <label for="car_age">Year of Manufacture:</label>
+        <input type="number" id="car_age" name="car_age" step="0.01" required>
+
+        <label for="mileage">Mileage (kmpl):</label>
+        <input type="number" id="mileage" name="mileage" step="0.01" required>
+
+        <label for="model">Select Model:</label>
+        <select id="model" name="model">
+            <option value="LinearRegression">Linear Regression</option>
+            <option value="Ridge">Ridge</option>
+            <option value="Lasso">Lasso</option>
+            <option value="ElasticNet">ElasticNet</option>
+        </select>
+
+        <label for="init_weights">Initialize Weights:</label>
+        <select id="init_weights" name="init_weights">
+            <option value="zeros">Zeros</option>
+            <option value="xavier">Xavier</option>
+        </select>
+
+        <label for="momentum">Use Momentum:</label>
+        <input type="checkbox" id="momentum" name="momentum" value="1">
+
+        <label for="degree">Polynomial Degree:</label>
+        <input type="number" id="degree" name="degree" step="1" min="1" max="10">
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <p id="prediction">{{ prediction }}</p>
+</body>
+</html>
