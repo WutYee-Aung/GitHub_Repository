@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the Car Price Prediction as Categorical Problem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #prediction {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Price Prediction</h1>
+    <form action="/a3_predict" method="POST">
+        <label for="max_power">Max Power (bhp):</label>
+        <input type="number" id="max_power" name="max_power" step="0.01" required>
+
+        <label for="car_age">Year of Manufacture:</label>
+        <input type="number" id="car_age" name="car_age" step="0.01" required>
+
+        <label for="mileage">Mileage (kmpl):</label>
+        <input type="number" id="mileage" name="mileage" step="0.01" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <p id="prediction">{{ prediction }}</p>
+</body>
+</html>
